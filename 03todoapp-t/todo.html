@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="https://api.openweathermap.org/data/2.5/find?q=London&units=metric&appid=7d96bc5108f52b80e2d9075a369b9f35">
+    <title>경준님의할일</title>
+</head>
+<body>
+    <div class="container shadwo mx-auto mt-5 p-5 w-70">
+        <h2>오경준 Todo app</h2>
+        <hr>
+        <div class="input-group">
+            <input type="text" class="form-control"  id="item" placeholder="할일을 입력하세요">
+            <button id="newBtn" type="button" class="btn-info" onclick="addItem()">New Entry</button>
+        </div>
+        <hr>
+        <ul id="todolist" class="list group"></ul>
+    </div> 
+    <script src="todo.js"></script>
+</body>
+</html>
